@@ -12,7 +12,7 @@
 		}
 	div#interface{
 		background-color: #ffffff;
-		width: 1150px;
+		width: 1450px;
 		margin: -20px auto 10px auto;
 		box-shadow: 0px 0px 10px rgba(0,0,0,.5);
 		padding: 10px;
@@ -26,7 +26,7 @@
 				}
 
 		header#cabecalho{
-			border-bottom: 1px #6060606 solid;
+			border-bottom: 1px #606060 solid;
 			height: 150px;
 			background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
 			}/*Por algum motimo a borda não está funcionado, repeti esse parametro no html*/
@@ -118,3 +118,26 @@ nav#menu a:hover{
 	color: #ffffff;
 	text-decoration: underline;
 }
+
+section#corpo {
+	display: block;
+	width: 835px;
+	float: left;
+	border-right: 1px solid #606060;
+	padding-right: 30px;
+	}
+
+aside#lateral {
+	display: block;
+	width: 550px;
+	float: right;
+	}
+
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #606060;
+	}
+
+footer#rodape p {
+	text-align: center;
+	}
