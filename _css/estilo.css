@@ -3,49 +3,59 @@
 @font-face{
 	font-family: 'FonteLogo';
 	src: url("../_fonts/bubblegum-sans-regular.otf");
-	}/*Por algum motimo a fonte não está funcionado, repeti esse parametro no html*/
+	}
 
-	body{background-color: #dddddd}/*Por algum motimo o background color para body não está funcionado, repeti esse parametro no html*/
-		p{
-			text-align: justify;
-			text-indent: 50px;
-			font-size: 15pt;
-		}
-		div#interface{
-		background-color: #ffffff;
-		width: 1450px;
-		margin: -20px auto 10px auto;
-		box-shadow: 0px 0px 10px rgba(0,0,0,.5);
-		padding: 10px;
-		}
+body {
+	background-color: #dddddd;
+	font-family: Arial, sans-serif;
+	color: rgba(0,0,0,1)
+	}
+p {
+	text-align: justify;
+	text-indent: 50px;
+	font-size: 15pt;
+	}
+a {
+	color: #606060;
+	text-decoration: none;
+	}
+a:hover {
+	text-decoration: underline;
+	}
+div#interface{
+	background-color: #ffffff;
+	width: 1450px;
+	margin: -20px auto 10px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+	}
 
-		header#cabecalho img#icone{
-				position: absolute;
-				right: 20px;
-				top: 45px;
-				height: 150px;
-				}
-
-		header#cabecalho{
-			border-bottom: 1px #606060 solid;
-			height: 150px;
-			background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
-			}/*Por algum motimo a borda não está funcionado, repeti esse parametro no html*/
-		header#cabecalho h1{
-			font-family: 'FonteLogo', sans-serif;
-			font-size: 30pt;
-			color: #606060;
-			text-shadow: 1px 1px 1px rgba(0,0,0,.6)
-			padding: 0px;
-			margin-bottom: 0px;
-			}
-		header#cabecalho h2{
-			font-family: 'Titillium Web', sans-serif;
-			color: #888888;
-			font-size: 15pt;
-			padding: 0px;
-			margin-top: 0px;
-			}
+header#cabecalho img#icone{
+	position: absolute;
+	right: 20px;
+	top: 45px;
+	height: 150px;
+	}
+header#cabecalho{
+	border-bottom: 1px #606060 solid;
+	height: 150px;
+	background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+	}
+header#cabecalho h1{
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 30pt;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6)
+	padding: 0px;
+	margin-bottom: 0px;
+	}
+header#cabecalho h2{
+	font-family: 'Titillium Web', sans-serif;
+	color: #888888;
+	font-size: 15pt;
+	padding: 0px;
+	margin-top: 0px;
+	}
 
 /*Formatação de Imagens com Legenda*/
 
@@ -128,6 +138,38 @@ section#corpo {
 	padding-right: 30px;
 	}
 
+article#noticia-principal h2 {
+	font-size: 13pt;
+	color: #606060;
+	background-color: #dddddd;
+	padding: 5px 0px 5px 10px;
+	margin: 10px 0px 10px 0px;
+	}
+
+header#cabecalho-artigo h1 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	}
+
+header#cabecalho-artigo h2 {
+	font-size: 13pt;
+	color: #cecece;
+	background-color: #ffffff;
+	margin: 0px;
+	}
+
+header#cabecalho-artigo h3 {
+	font-size: 12pt;
+	color: #606060;	
+	}
+
+header#cabecalho-artigo h3.direita {
+	text-align: right;
+	}
+
 table#tabelaspec {
 	border: 1px solid #606060;
 	font-size: 15pt;
@@ -154,7 +196,7 @@ table#tabelaspec td.cd {
 
 table#tabelaspec caption {
 	color: #888888;
-	font-size: 13pt;
+	font-size: 15pt;
 	font-weight: bolder;
 	}
 
@@ -170,6 +212,24 @@ aside#lateral {
 	display: block;
 	width: 550px;
 	float: right;
+	background-color: #dddddd;
+	padding: 10px;
+	margin-top: 10px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+	}
+
+aside#lateral h1 {
+	font-family: 'FonteLogo';
+	font-size: 20pt;
+	color: #606060;
+	margin-top: 0px;
+	}
+
+aside#lateral h2 {
+	background-color: #606060;
+	font-size: 13pt;
+	color: #ffffff;
+	padding: 5px;
 	}
 
 footer#rodape {
