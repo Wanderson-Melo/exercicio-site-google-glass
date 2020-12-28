@@ -34,7 +34,7 @@ header#cabecalho hgroup{
 	flex-direction: column;
 }
 
-header#cabecalho img#icone{
+header#cabecalho img#icone, #icone0{
 	margin: 0;
 	padding: 0;
 	position: relative;
