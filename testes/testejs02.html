@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste JavaScript</title>
+    <style>
+        body img{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Acenda a Lampâda</h1>
+    <img src="/imagens/lampada-apagada.jpg" alt="" onmousemove="acendaLampada()" onmouseout="apagaLampada()" onclick="lampadaQuebrada()">
+    <script>
+        //Estabelecendo variável
+        var lampada = document.querySelector('body img');
+        var verificador = false;
+
+        function acendaLampada(){
+            if(verificador == false){
+                lampada.setAttribute('src', '/imagens/lampada-acesa.jpg');
+            }
+        }
+        function apagaLampada(){
+            if(verificador == false){
+                lampada.setAttribute('src', '/imagens/lampada-apagada.jpg');
+            }
+        }
+        function lampadaQuebrada(){
+            if(verificador == false){
+                lampada.setAttribute('src', '/imagens/lampada-quebrada.jpg');
+                verificador = true;
+            }
+        }
+    </script>
+</body>
+</html>
