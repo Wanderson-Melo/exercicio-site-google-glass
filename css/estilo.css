@@ -253,4 +253,9 @@ footer#rodape {
 footer#rodape p {
 	text-align: center;
 	}
+/*Formatação para vídeos*/
+video{
+	width: 100%;
+}
+
 /*Responsividade com Media Queries*/
